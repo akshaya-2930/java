@@ -1,0 +1,12 @@
+public  class Sphere {
+    public static void main (String[] args)
+    {
+        int radius=5;
+        double pi=3.14;
+        radius=radius*radius;
+        double area=pi*radius;
+        System.out.print(+area);
+    }
+
+    
+}
