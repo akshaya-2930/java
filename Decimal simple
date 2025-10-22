@@ -1,0 +1,15 @@
+public class Akki {
+    public static void main(String[] args) {
+        int decimal = 25; // You can change this number
+
+        // Convert to binary
+        String binary = Integer.toBinaryString(decimal);
+
+        // Convert to octal
+        String octal = Integer.toOctalString(decimal);
+
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Binary: " + binary);
+        System.out.println("Octal: " +octal);
+}
+}
