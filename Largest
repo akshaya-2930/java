@@ -1,0 +1,13 @@
+import java.util.Arrays;
+
+public class Largest {
+    public static void main(String[] args) {
+        int[] arr = {10, 5, 8, 20, 3, 15}; 
+        int n = 4; 
+        
+        Arrays.sort(arr);
+        int nthMax = arr[arr.length - n];
+
+        System.out.println(n + "-th maximum number: " + nthMax);
+    }
+}
