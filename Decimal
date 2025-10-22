@@ -1,0 +1,14 @@
+class Decimal{
+    public static void main(String[] args) {
+        int decimal=15;
+        int binary=0,base=1;
+        while(decimal>0)
+        {
+            int remainder=decimal%2;
+            binary+=remainder*base;
+            base*=10;
+            decimal/=2;
+        }
+        System.out.println(+binary);
+    }
+}
